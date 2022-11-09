@@ -1,25 +1,25 @@
 variable "firefly_access_key" {
   type        = string
   description = "INFLGLDJYWUIXRGEVAQP"
-  firefly_access_key    = "INFLGLDJYWUIXRGEVAQP"
+  default    = "INFLGLDJYWUIXRGEVAQP"
 }
 
 variable "firefly_secret_key" {
   type        = string
   description = "I6QXga8XYgHmhVJfSDpuWLf1HXcKG3Igd7aLPxkMgk4sJc4JLvrKtaI2QhuTITox"
-  firefly_secret_key    = "I6QXga8XYgHmhVJfSDpuWLf1HXcKG3Igd7aLPxkMgk4sJc4JLvrKtaI2QhuTITox"
+  default    = "I6QXga8XYgHmhVJfSDpuWLf1HXcKG3Igd7aLPxkMgk4sJc4JLvrKtaI2QhuTITox"
 }
 
 variable "name" {
   type        = string
   description = "AWS"
-  name                  = "AWS"
+  default = "AWS"
 }
 
 variable "role_external_id" {
   type        = string
   description = "MC43MDIyODA1NTU2OTA4NzAy"
-  role_external_id      = "MC43MDIyODA1NTU2OTA4NzAy"
+  default = "MC43MDIyODA1NTU2OTA4NzAy"
 }
 
 variable "firefly_endpoint" {
